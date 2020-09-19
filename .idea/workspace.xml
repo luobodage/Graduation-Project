@@ -11,9 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99a0f647-222d-48cd-a441-e30bef626ef3" name="默认的" comment="2020/9/20 jd_01.py --&gt; jd_main.py">
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/id.txt" beforeDir="false" afterPath="$PROJECT_DIR$/id.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jd_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/jd_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,6 +166,7 @@
       <updated>1600505521312</updated>
       <workItem from="1600505522662" duration="6651000" />
       <workItem from="1600512496353" duration="235000" />
+      <workItem from="1600512741621" duration="165000" />
     </task>
     <task id="LOCAL-00001" summary="01 add jd_01.py">
       <created>1600505646972</created>
@@ -196,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600512622724</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="xiugai">
+      <created>1600512797246</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600512797246</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,13 +227,18 @@
     <MESSAGE value="2020/9/20 xiugai" />
     <MESSAGE value="2020/9/20 number2 add home and paqu pinglun" />
     <MESSAGE value="2020/9/20 jd_01.py --&gt; jd_main.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020/9/20 jd_01.py --&gt; jd_main.py" />
+    <MESSAGE value="xiugai" />
+    <option name="LAST_COMMIT_MESSAGE" value="xiugai" />
   </component>
   <component name="WindowStateProjectService">
     <state x="347" y="137" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600512575371">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="347" y="137" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600512575371" />
+    <state x="626" y="220" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600512759516">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="626" y="220" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600512759516" />
     <state width="625" height="302" key="GridCell.Tab.0.bottom" timestamp="1600512183091">
       <screen x="0" y="0" width="1920" height="972" />
     </state>
@@ -267,6 +279,14 @@
     </state>
     <state width="625" height="302" key="GridCell.Tab.1.right/0.0.1852.1040@0.0.1852.1040" timestamp="1600511742991" />
     <state width="625" height="302" key="GridCell.Tab.1.right/0.0.1920.972@0.0.1920.972" timestamp="1600512183092" />
+    <state x="121" y="42" key="MergeDialog" timestamp="1600512794637">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="121" y="42" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600512794637" />
+    <state x="525" y="230" key="MultipleFileMergeDialog" timestamp="1600512794640">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="525" y="230" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600512794640" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/$test.coverage" NAME="test Coverage Results" MODIFIED="1600511387496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
