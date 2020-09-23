@@ -54,9 +54,9 @@ def batch_spider_comment():
     # 写入数据前先清空之前的数据
     if os.path.exists(comment_file_path):
         os.remove(comment_file_path)
-    for i in range(11):  # 爬取前十页评论
+    for i in range(5):  # 爬取前五页评论
         spider_comment(i)
-        time.sleep(random.random() * 5)  # 每次间隔5秒
+        time.sleep(random.random() * 2)  # 每次间隔2秒
 
 
 def cut_word():
@@ -87,12 +87,11 @@ def create_word_cloud():
     # 在只设置mask的情况下，你将会的到一个拥有图片形状的词云
     plt.imshow(wc, interpolation="bilinear")
     plt.axis("off")
-    plt.figure()
-
-    plt.savefig("ciyun.jpg", dpi=100, format='jpg')
+    plt.savefig("ciyun.png", bbox_inches='tight') # 不要白色
     plt.show()
 
 
 if __name__ == '__main__':
     batch_spider_comment()
     create_word_cloud()
+    jd_home.file_rename()
