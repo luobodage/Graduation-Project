@@ -40,14 +40,17 @@ def spider_home():
 
         number = re_01.findall(str(href))
 
-        for shop_price in price:
-
-            print("商品价格：" + shop_price)
+        shop_price_01 = "".join(price)
+        print("商品价格：" + shop_price_01)
+        # for shop_price in price:
+        #
+        #     print("商品价格：" + shop_price)
 
         global shop_title  # 全局定义商品题目 进行文件改标题
-
-        for shop_title in title:
-            print("商品标题：" + shop_title)
+        shop_title_01 = "".join(title)
+        print("商品标题：" + shop_title_01)
+        # for shop_title in title:
+        #     print("商品标题：" + shop_title)
 
         for index in href:
             global href_shop
