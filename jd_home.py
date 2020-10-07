@@ -55,7 +55,7 @@ def spider_home():
         for index in href:
             global href_shop
             href_shop = 'http:' + index
-            # print(href_shop)
+            print(href_shop)
 
         for num in number:
             # print(num)
